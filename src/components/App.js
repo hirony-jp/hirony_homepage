@@ -1,4 +1,5 @@
 import React from 'react';
+import NameCard from './NameCard.js';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button } from '@material-ui/core';
 
@@ -8,6 +9,8 @@ function App() {
       <h1>Welcome Hirony.jp</h1>
 
       <p>デザイナー募集</p>
+
+      <NameCard />
 
       <ul>
         <li><a href="https://twitter.com/_hirony">Twitter</a></li>
