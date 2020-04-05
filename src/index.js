@@ -7,7 +7,8 @@ import { fab } from '@fortawesome/free-brands-svg-icons'; //fontawesomeのbrand�
 // import { far } from '@fortawesome/free-regular-svg-icons'; //fontawesomeのregularアイコンのインポート
 import * as serviceWorker from './serviceWorker';
 
-library.add(fab, fas, far);
+// library.add(fab, fas, far);
+library.add(fab);
 ReactDOM.render(<App />, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
