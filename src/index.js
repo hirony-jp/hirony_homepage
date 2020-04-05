@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import './index.css';
 import App from './components/App';
 import { library } from '@fortawesome/fontawesome-svg-core'; //fontawesomeのコアファイル
 import { fab } from '@fortawesome/free-brands-svg-icons'; //fontawesomeのbrandアイコンのインポート

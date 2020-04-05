@@ -1,11 +1,11 @@
 import React from 'react';
-import { Card, CardHeader, Avatar } from '@material-ui/core';
+import { Card, CardHeader, CardContent, Avatar } from '@material-ui/core';
 import { makeStyles, createStyles } from '@material-ui/core/styles';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const useStyles = makeStyles((theme) =>
     createStyles({
-        large: {
+        avatarStyle: {
             width: theme.spacing(7),
             height: theme.spacing(7)
         },
@@ -14,6 +14,14 @@ const useStyles = makeStyles((theme) =>
             marginTop: 30,
             marginBottom: 30,
             maxWidth: 300
+        },
+        cardContentStyle: {
+            textAlign: 'right'
+        },
+        iconStyle: {
+            marginLeft: 7,
+            marginRight: 7,
+            color: 'gray'
         },
         root: {
             position: 'absolute',
@@ -36,10 +44,15 @@ function NameCard() {
                         <Avatar 
                             aria-label="recipe"
                             src={`${process.env.PUBLIC_URL}/hirony-girl-icon-0000.png`}
-                            className={classes.large}
+                            className={classes.avatarStyle}
                         />
                     }
                 />
+
+                <CardContent className={classes.cardContentStyle}>
+                    <a href="https://twitter.com/_hirony"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'twitter']} size="3x" /></a>
+                    <a href="https://www.youtube.com/channel/UCMMp1g3u_vuGJh5qv2UdhKw"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'youtube']} size="3x" /></a>
+                </CardContent>
             </Card>
 
             <Card className={classes.cardStyle}>
@@ -50,10 +63,15 @@ function NameCard() {
                         <Avatar
                             aria-label="recipe"
                             src={`${process.env.PUBLIC_URL}/icon-twitter-maru-maru.png`}
-                            className={classes.large}
+                            className={classes.avatarStyle}
                         />
                     }
                 />
+
+                <CardContent className={classes.cardContentStyle}>
+                    <a href="https://www.instagram.com/hirony_jp/"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'instagram']} size="3x" /></a>
+                    <a href="https://github.com/hirony-jp"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'github']} size="3x" /></a>
+                </CardContent>
             </Card>
         </div>
     );
