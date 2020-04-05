@@ -12,8 +12,7 @@ const useStyles = makeStyles((theme) =>
         cardStyle: {
             margin: 'auto',
             marginTop: 30,
-            marginBottom: 30,
-            maxWidth: 300
+            marginBottom: 30
         },
         cardContentStyle: {
             textAlign: 'right'
@@ -27,7 +26,9 @@ const useStyles = makeStyles((theme) =>
             position: 'absolute',
             top: '50%',
             left: '50%',
-            transform: 'translate(-50%, -50%)'
+            transform: 'translate(-50%, -50%)',
+            width: '80%',
+            maxWidth: 500
         }
     })
 );
