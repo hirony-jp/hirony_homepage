@@ -52,7 +52,7 @@ function NameCard() {
 
                 <CardContent className={classes.cardContentStyle}>
                     <a href="https://twitter.com/_hirony"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'twitter']} size="3x" /></a>
-                    <a href="https://www.youtube.com/channel/UCMMp1g3u_vuGJh5qv2UdhKw"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'youtube']} size="3x" /></a>
+                    <a href=""><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'youtube']} size="3x" /></a>
                 </CardContent>
             </Card>
 
