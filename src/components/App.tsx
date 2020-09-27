@@ -1,9 +1,10 @@
 import React from 'react';
+import NameCard from './NameCard';
 
 function App() {
   return (
     <div>
-      <h1>Welcome hirony.jp typescript</h1>
+      <NameCard />
     </div>
   );
 }
