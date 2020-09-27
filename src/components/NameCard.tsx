@@ -54,7 +54,7 @@ function NameCard() {
                     <a href="https://twitter.com/_hirony"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'twitter']} size="3x" /></a>
                     <a href="https://www.instagram.com/hirony_jp/"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'instagram']} size="3x" /></a>
                     <a href="https://github.com/hirony-jp"><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'github']} size="3x" /></a>
-                    <a href=""><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'youtube']} size="3x" /></a>
+                    {/* <a href=""><FontAwesomeIcon className={classes.iconStyle} icon={['fab', 'youtube']} size="3x" /></a> */}
                 </CardContent>
             </Card>
         </div>
